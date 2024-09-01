@@ -12,11 +12,13 @@ This project is a simple yet fully functional Tic-Tac-Toe game built using Java 
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/Aastha-Bhatia/Tic-Tac-Toe-Game
+   git clone https://github.com/Aastha-Bhatia/Tic-Tac-Toe-Game.git
+
    ```
 2. Navigate to the project directory:
    ```sh
-   cd TicTacToe/TicTacToe/src/App.java
+   cd Tic-Tac-Toe-Game/TicTacToe/TicTacToe/src
+
    ```
 3. Compile the Java files:
    ```sh
