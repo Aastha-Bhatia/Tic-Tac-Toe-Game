@@ -9,6 +9,14 @@ This project is a simple yet fully functional Tic-Tac-Toe game built using Java 
 - **Winning Conditions**: The game checks for winning combinations horizontally, vertically, and diagonally.
 - **Tie Detection**: Declares a tie when all nine squares are filled without a winner.
 
+## Screenshots
+Here are some screenshots of the game:
+
+![Game Screenshot 1](GameScreenshot1.png)
+![Game Screenshot 2](GameScreenshot2.png)
+![Game Screenshot 1](GameScreenshot3.png)
+![Game Screenshot 2](GameScreenshot4.png)
+
 ## Installation
 1. Clone this repository:
    ```sh
