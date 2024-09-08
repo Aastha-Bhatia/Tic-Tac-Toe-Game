@@ -2,13 +2,6 @@
 
 This project is a simple yet fully functional Tic-Tac-Toe game built using Java and Swing for the graphical user interface (GUI). The game is designed for two players, taking turns to mark their respective symbols (X or O) on a 3x3 grid. The objective is to be the first player to get three of their marks in a horizontal, vertical, or diagonal row. In the case where all nine squares are filled without a winner, the game ends in a tie.
 
-## Features
-- **User-Friendly Interface**: A clean and intuitive GUI using Java Swing for an engaging gameplay experience.
-- **Two-Player Mode**: Players take turns to mark 'X' or 'O' on the board.
-- **Dynamic Gameplay**: Automatically switches turns between players and updates the game status.
-- **Winning Conditions**: The game checks for winning combinations horizontally, vertically, and diagonally.
-- **Tie Detection**: Declares a tie when all nine squares are filled without a winner.
-
 ## Screenshots
 Here are some screenshots of the game:
 
@@ -16,6 +9,13 @@ Here are some screenshots of the game:
 ![Game Screenshot 2](GameScreenshot2.png)
 ![Game Screenshot 1](GameScreenshot3.png)
 ![Game Screenshot 2](GameScreenshot4.png)
+
+## Features
+- **User-Friendly Interface**: A clean and intuitive GUI using Java Swing for an engaging gameplay experience.
+- **Two-Player Mode**: Players take turns to mark 'X' or 'O' on the board.
+- **Dynamic Gameplay**: Automatically switches turns between players and updates the game status.
+- **Winning Conditions**: The game checks for winning combinations horizontally, vertically, and diagonally.
+- **Tie Detection**: Declares a tie when all nine squares are filled without a winner.
 
 ## Installation
 1. Clone this repository:
