@@ -21,6 +21,9 @@ public class TicTacToe {
     // we are creating our board now
     JPanel boardPanel = new JPanel();
 
+    JPanel footerPanel = new JPanel();
+    final JLabel footerLabel = new JLabel("Developed by Aastha Bhatia");
+
     // we are creating an array now of 3x3 size using jbuttons to keep track of all
     // the buttons of the board.
     JButton[][] board = new JButton[3][3];
@@ -121,6 +124,15 @@ public class TicTacToe {
                 });
             }
         }
+        
+        // Footer Panel for developer credit
+        footerLabel.setFont(new Font("Arial", Font.PLAIN, 14));
+        footerLabel.setHorizontalAlignment(JLabel.CENTER);
+        footerPanel.setLayout(new BorderLayout());
+        footerPanel.add(footerLabel, BorderLayout.CENTER);
+        footerLabel.setFocusable(false);
+        footerPanel.setBackground(Color.decode("#8B7B8B")); 
+        frame.add(footerPanel, BorderLayout.SOUTH); // Add footer panel to the south
     }
 
     void checkWinner() {
